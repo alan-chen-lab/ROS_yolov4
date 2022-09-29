@@ -1,0 +1,16 @@
+<launch>
+    <arg name="camera_index" default="4" />
+
+    <node pkg="camera_node" type="camera_pub" name="camera_pub" output="screen" required="true">
+        <param name="camera_index" type="int" value="$(arg camera_index)" />
+    </node>
+
+    <!-- Add one cam and YOLO -->
+    <node name="yolo_node" pkg="robot_vision" type="yolo.py" cwd="node" output="screen">
+        <param name="yolo_names" type="string" value="yolov4-people-obj.names" />
+        <param name="yolo_cfg" type="string" value="yolov4.cfg" />
+        <param name="yolo_weights" type="string" value="yolov4.weights" />
+        <remap from="/camera/image" to="/camera_info" />
+    </node>
+
+</launch>

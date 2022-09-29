@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <arg name="camera_index" default="0" />
+
+  <node pkg="camera_node" type="camera_pub" name="camera_pub" output="screen" required="true">
+    <param name="camera_index" type="int" value="$(arg camera_index)" />
+  </node>
+
+</launch> 
