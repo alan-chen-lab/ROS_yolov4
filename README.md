@@ -7,4 +7,6 @@
 > ls /dev/video*
 ## Setup camera to yolo
 > cd src/robot_vision/launch/yolov4.launch
-> <arg name="camera_index" default="your video index" />
+```
+<arg name="camera_index" default="your video index" />
+```
