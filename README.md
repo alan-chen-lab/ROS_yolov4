@@ -3,12 +3,13 @@
 > ubuntu 20.04 LTS   
 > ROS Noetic  
 > OpenCV-python 4.5.4  
-## Step 1 : git clone and create the workspace
+## Step 1 : create the workspace
 ```
 mkdir -p ~/your_ws_name/src
 cd your_ws_name/src/    /   catkin_init_workspace
 cd ..     /     catkin_make
 ```
+## step 3 : git clone 
 ## Step 2 : catkin_make
 > cd workspace & catkin_make
      
