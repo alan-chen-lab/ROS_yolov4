@@ -9,8 +9,8 @@ mkdir -p ~/your_ws_name/src
 cd your_ws_name/src/    /   catkin_init_workspace
 cd ..     /     catkin_make
 ```
-## step 3 : git clone 
-## Step 2 : catkin_make
+## step 2 : git clone 
+## Step 3 : catkin_make
 > cd workspace & catkin_make
      
 ## Check your camera
