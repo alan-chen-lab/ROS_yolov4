@@ -6,7 +6,7 @@
 ### create the workspace
 ```
 1. mkdir -p ~/your_ws_name
-2. git clone 
+2. git clone git@github.com:alan-chen-lab/ROS_yolov4.git
 3. cd ..   
 4. catkin_make
 ```     
