@@ -11,8 +11,9 @@
 4. catkin_make
 ```     
 ### Check your camera
-> ls /dev/video*
-### Setup camera to yolo
+```
+ls /dev/video*
+```
 ### Adjust yolov4.launch
 > Path: cd src/robot_vision/launch/yolov4.launch
 ### Change default to your camera index
