@@ -1,4 +1,4 @@
-# ROS_yolov4
+# ROS_yolov4 (Python version)
 ### Env require:
 > ubuntu 20.04 LTS   
 > ROS Noetic  
